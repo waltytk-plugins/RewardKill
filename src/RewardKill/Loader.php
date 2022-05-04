@@ -4,6 +4,7 @@ namespace RewardKill;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
+use RewardKill\event\EventListener;
 
 class Loader extends PluginBase
 {
