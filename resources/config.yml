@@ -1,0 +1,2 @@
+# {playerName} para agregar el nombre del jugador
+command.reward: "gamemode {playerName} c"

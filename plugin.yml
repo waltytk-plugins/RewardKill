@@ -1,0 +1,5 @@
+name: RewardKill
+version: 1.0
+main: RewardKill\Loader
+api: 4.0.0
+author: Walty-TK
