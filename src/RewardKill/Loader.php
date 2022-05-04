@@ -18,6 +18,7 @@ class Loader extends PluginBase
     protected function onEnable(): void
     {
         $this->saveResource("config.yml");
+        $this->getServer()->getPluginManager()->registerEvents(new EventListener(), $this);
     }
 
     public function getCommandReward()
